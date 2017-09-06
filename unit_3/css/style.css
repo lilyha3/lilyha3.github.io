@@ -12,10 +12,9 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 
 #wrapper {
     background: #fff;
-    width: 200px;
+    width: 2000px;
     margin: 600px
    ;
-   
 }
 
 h1 {
