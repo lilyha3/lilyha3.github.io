@@ -1,4 +1,5 @@
 body, p {
+
 	font-size:12px; 
 	font-family: arial;
 	text-align: center;
@@ -7,6 +8,11 @@ background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-2
 background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
+}
+
+#wrapper {
+    width: 500px;
+    margin: 0 auto;
 }
 
 h1 {
