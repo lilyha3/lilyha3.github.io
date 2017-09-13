@@ -33,7 +33,7 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 h1 {
    	font-size:70px; 
 	font-family: 'Oswald'; arial; san-serif;
-	text-align:center;
+	text-align:left;
 	text-transform: uppercase;
 
 }
@@ -41,7 +41,15 @@ h1 {
 h2 {
    	font-size:70px; 
 	font-family: 'Oswald'; arial; san-serif;
-	text-align:center;
+	text-align:left;
+	text-transform: uppercase;
+
+}
+
+h3 {
+   	font-size:70px; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-align:left;
 	text-transform: uppercase;
 
 }
