@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+nav {
+		font-size:18px; 
+		font-family: helvetica; san-serif;
+		font-weight: bold;
+		text-align: right;
+		background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+}
+
+body {
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+}
+	 
+
+p {
+	font-size:12px; 
+	font-family: helvetica; san-serif;
+ 	line-height: 1.5em;
+  	margin: 2em;
+
+}
+
+h1 {
+   	font-size:70px; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-transform: uppercase;
+
+}
+
+h2 {
+   	font-size:70px; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-transform: uppercase;
+
+}
+
+h3 {
+   	font-size:70px; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-transform: uppercase;
+
+}
+
+h4 {
+   	font-size:70px; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-transform: uppercase;
+}
