@@ -37,7 +37,11 @@ h1, h2, h3, h4 {
 }
 
 footer {
-	background: #FFE2B8
+	background: #FF957E
+	font-size:12px; 
+	font-family: helvetica; san-serif;
+ 	line-height: 1.5em;
+  	margin: 2em;
 }
 
 article {
