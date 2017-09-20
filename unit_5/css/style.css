@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-.nav {
+nav {
 		font-size:18px; 
 		font-family: helvetica; san-serif;
 		font-weight: bold;
 		text-align: right;
-		background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		background: #E8C66A
 
+}
+
+header {
+	background: #FFED74
 }
 
 body {
@@ -28,29 +29,17 @@ p {
 
 }
 
-h1 {
+h1, h2, h3, h4 {
    	font-size:70px; 
 	font-family: 'Oswald'; arial; san-serif;
 	text-transform: uppercase;
 
 }
 
-h2 {
-   	font-size:70px; 
-	font-family: 'Oswald'; arial; san-serif;
-	text-transform: uppercase;
-
+footer {
+	background: #FFE2B8
 }
 
-h3 {
-   	font-size:70px; 
-	font-family: 'Oswald'; arial; san-serif;
-	text-transform: uppercase;
-
-}
-
-h4 {
-   	font-size:70px; 
-	font-family: 'Oswald'; arial; san-serif;
-	text-transform: uppercase;
+article {
+	background: #E89C6C
 }
