@@ -2,8 +2,9 @@
 
 nav {
 		font-size:18px; 
-		font-family: helvetica; san-serif;
+		font-family: 'Oswald'; san-serif;
 		font-weight: bold;
+		font-size: 1em;
 		text-align: right;
 		background: #E8C66A
 		float: right;
