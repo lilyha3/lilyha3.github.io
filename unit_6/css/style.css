@@ -49,4 +49,29 @@ footer {
 
 article {
 	background: #E89C6C
+
+	#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+#hero {
+display: block;
+width: 100%;
+margin; 0;
+background: #fff;
 }
