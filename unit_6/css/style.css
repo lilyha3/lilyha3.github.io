@@ -45,10 +45,16 @@ footer {
 	font-family: helvetica; san-serif;
  	line-height: 1.5em;
   	margin: 2em;
+  	clear: both;
 }
 
 section {
 	background: #E89C6C
+}
+
+#intro {
+	text-align: center;
+	float: center;
 }
 
 #two_column {
@@ -74,9 +80,19 @@ section {
 }
 
 #hero {
-display: block;
 width: 100%;
 float: left;
 margin; 0;
-background: #fff;
+text-align: left;
+float right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+
 }
