@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+nav {
+		font-size:18px; 
+		font-family: 'Oswald'; san-serif;
+		font-weight: bold;
+		font-size: 1em;
+		text-align: right;
+		background: #E8C66A
+		float: right;
+		clear: both;
+
+}
+
+header {
+	background: #FFED74
+}
+
+body {
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+}
+	 
+
+p {
+	font-size:12px; 
+	font-family: helvetica; san-serif;
+ 	line-height: 1.5em;
+  	margin: 2em;
+
+}
+
+h1, h2, h3, h4 {
+   	font-size:70px; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-transform: uppercase;
+
+}
+
+footer {
+	background: #FF957E
+	font-size:12px; 
+	font-family: helvetica; san-serif;
+ 	line-height: 1.5em;
+  	margin: 2em;
+  	clear: both;
+}
+
+section {
+	background: #E89C6C
+}
+
+#intro {
+	text-align: center;
+	float: center;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+#hero {
+width: 100%;
+float: left;
+margin; 0;
+text-align: left;
+float right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+
+}
