@@ -8,19 +8,23 @@ nav {
 		text-align: right;
 		float: right;
 		clear: both;
-		color: #000000;
+		color: #FFFFFF;
 
 }
 
-header {    
-}
+header {  
+		font-size:12px; 
+		font-family: helvetica; san-serif;
+ 		line-height: 1.5em;
+  		margin: 2em;
+  		color: #FFFFFF;
+  	}
 
 body {
 	background: #232526;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	 
+	text-align: center;
 }
 
 p {
@@ -28,7 +32,7 @@ p {
 	font-family: helvetica; san-serif;
  	line-height: 1.5em;
   	margin: 2em;
-  	color: #000000;
+  	color: #FFFFFF;
 
 }
 
@@ -36,7 +40,7 @@ h1, h2, h3, h4 {
    	font-size:70px; 
 	font-family: 'Oswald'; arial; san-serif;
 	text-transform: uppercase;
-	color: #000000;
+	color: #FFFFFF;
 
 }
 
@@ -46,17 +50,21 @@ footer {
  	line-height: 1.5em;
   	margin: 2em;
   	clear: both;
-  	color: #000000;
+  	color: #FFFFFF;
 }
 
 section {
+		text-align: center;
+		color: #FFFFFF;
 }
 
 img {
 		display: block;
-		margin: - 0 auto;
 		clear: both;
-		width: 480px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1200px;
+
 }
 
 #intro {
@@ -65,8 +73,7 @@ img {
 }
 
 
-#hero {
-width: 100%;
+#hero { 
 float: left;
 margin; 0;
 text-align: left;
@@ -82,3 +89,65 @@ float right;
     height: 0;
 
 }
+
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }	
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+}
+
+  img {
+    max-width: 800px;
+  }
+}
+
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  
+  h2 {
+    	font-size: 1em;
+    	display: inline;
+  }
+    p {
+    margin: 1.8em .6em 0;
+    }
+li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+  	height: 2em;
+  	line-height: 2em;
+  }
+  nav a {
+  margin: 0 1em 1em;
+  }
+  img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+}
+
+h1, h2, h3, h4 {
+   	font-size: 2em; 
+	font-family: 'Oswald'; arial; san-serif;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	}
