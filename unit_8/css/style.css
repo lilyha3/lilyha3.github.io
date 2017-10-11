@@ -40,7 +40,6 @@ h1, h2, h3, h4 {
 }
 
 footer {
-	background: #FF957E
 	font-size:12px; 
 	font-family: helvetica; san-serif;
  	line-height: 1.5em;
@@ -49,7 +48,13 @@ footer {
 }
 
 section {
-	background: #E89C6C
+}
+
+img {
+		display: block;
+		margin: - 0 auto;
+		clear: both;
+		width: 480px;
 }
 
 #intro {
@@ -57,27 +62,6 @@ section {
 	float: center;
 }
 
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
-}
 
 #hero {
 width: 100%;
@@ -95,4 +79,28 @@ float right;
     clear: both;
     height: 0;
 
+}
+
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  
+  h2 {
+    	font-size: 1em;
+    	display: inline;
+  }
+
+  }
+  nav a {
+  margin: 0 1em 1em;
+  }
+  img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
 }
